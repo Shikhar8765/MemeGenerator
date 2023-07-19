@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MEME APP</string>
+    <string name="share">Share</string>
+    <string name="next">Next</string>
+    <string name="todo">TODO</string>
+    <string name="todocc">TODO</string>
+</resources>
