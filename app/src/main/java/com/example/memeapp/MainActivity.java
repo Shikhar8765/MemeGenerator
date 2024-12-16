@@ -35,16 +35,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Loadmeme();
     }
-public void Loadmeme()
-{
+public void Loadmeme() {
     progressBar=findViewById(R.id.progressbar);
     imageview=findViewById(R.id.memeimageview);
-   progressBar.setVisibility(View.VISIBLE);
+    progressBar.setVisibility(View.VISIBLE);
 // ...
 
 // Instantiate the RequestQueue.
     RequestQueue queue = Volley.newRequestQueue(this);
-
 
 // Request a string response from the provided URL.
     String url = "https://meme-api.com/gimme";
@@ -81,10 +79,6 @@ public void Loadmeme()
     RequestQueue requestQueue=Volley.newRequestQueue(this);
     queue.add(jsonObjectRequest);
 }
-
-
-
-
 
     public void ShareMeme(View view) {
         String url = "https://meme-api.com/gimme";

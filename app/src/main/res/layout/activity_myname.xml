@@ -10,11 +10,283 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Memagram :-By Shikhar Srivastava"
         android:textSize="24sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="MemeGramLogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/c0295d051affb5cd1c8a425b8a402e46" />
+
+    <FrameLayout
+        android:layout_width="335dp"
+        android:layout_height="424dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="55dp"
+            android:layout_height="44dp"
+            android:text="By:-"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:text="Shikhar Shrivastav" />
+
+        <TextView
+            android:id="@+id/Reg1"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="50sp"
+            android:text="22BCE10172" />
+
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70sp"
+            android:text="Harsh Sabharwal" />
+
+        <TextView
+            android:id="@+id/Reg2"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="70sp"
+            android:text="22BCE10193" />
+
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90sp"
+            android:text="Rishabh Gupta" />
+
+        <TextView
+            android:id="@+id/Reg3"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="90sp"
+            android:text="22BCE10213" />
+
+
+        <TextView
+            android:id="@+id/name4"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110sp"
+            android:text="Manav Rawat" />
+
+        <TextView
+            android:id="@+id/Reg4"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="110sp"
+            android:text="22BCE10233" />
+
+
+        <TextView
+            android:id="@+id/name5"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130sp"
+            android:text="Prakhar Shukla" />
+
+        <TextView
+            android:id="@+id/Reg5"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="130sp"
+            android:text="22BCE10247" />
+
+
+        <TextView
+            android:id="@+id/name6"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150sp"
+            android:text="Sumeet Sahu" />
+
+        <TextView
+            android:id="@+id/Reg6"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="150sp"
+            android:text="22BCE10369" />
+
+
+        <TextView
+            android:id="@+id/name7"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170sp"
+            android:text="Saurav Khanal" />
+
+        <TextView
+            android:id="@+id/Reg7"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="170sp"
+            android:text="22BCE10895" />
+
+
+        <TextView
+            android:id="@+id/name8"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190sp"
+            android:text="Ashutosh Singh Rawat " />
+
+        <TextView
+            android:id="@+id/Reg8"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="190sp"
+            android:text="22BCE11047" />
+
+
+        <TextView
+            android:id="@+id/name9"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="210sp"
+            android:text="Abhinav Dixit" />
+
+        <TextView
+            android:id="@+id/Reg9"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="210sp"
+            android:text="22BCE11085" />
+
+
+        <TextView
+            android:id="@+id/name10"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230sp"
+            android:text="Suyash Aggarwal " />
+
+        <TextView
+            android:id="@+id/Reg10"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="230sp"
+            android:text="22BCE11137" />
+
+
+        <TextView
+            android:id="@+id/name11"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250sp"
+            android:text="Hardik Gupta" />
+
+        <TextView
+            android:id="@+id/Reg11"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="250sp"
+            android:text="22BCE11278" />
+
+
+        <TextView
+            android:id="@+id/name12"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="270sp"
+            android:text="Nikhil Dixit" />
+
+        <TextView
+            android:id="@+id/Reg12"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="270sp"
+            android:text="22BCE11290" />
+
+
+        <TextView
+            android:id="@+id/name13"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290sp"
+            android:text="Ayush Pratap " />
+
+        <TextView
+            android:id="@+id/Reg13"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="290sp"
+            android:text="22BCE11324" />
+
+
+        <TextView
+            android:id="@+id/name14"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="310sp"
+            android:text="Aranya Bahuguna" />
+
+        <TextView
+            android:id="@+id/Reg14"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="310sp"
+            android:text="22BCE11369" />
+
+
+        <TextView
+            android:id="@+id/name15"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330sp"
+            android:text="Utkarsh Jha" />
+
+        <TextView
+            android:id="@+id/Reg15"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="330sp"
+            android:text="22BCE11670" />
+
+
+
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
