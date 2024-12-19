@@ -4,4 +4,56 @@
     <string name="next">Next</string>
     <string name="todo">TODO</string>
     <string name="todocc">TODO</string>
+
+    <string name="name1">Shikhar Srivastava </string>
+    <string name="reg1">22BCE10172</string>
+
+    <string name="name2">Harsh Sabharwal</string>
+    <string name="reg2">22BCE10193</string>
+
+    <string name="name3">Rishabh Gupta</string>
+    <string name="reg3">22BCE10213</string>
+
+    <string name="name4">Manav Rawat</string>
+    <string name="reg4">22BCE10233 </string>
+
+    <string name="name5">Prakhar Shukla </string>
+    <string name="reg5">22BCE10247 </string>
+
+    <string name="name6">Sumeet Sahu</string>
+    <string name="reg6">22BCE10369</string>
+
+    <string name="name7">Saurav Khanal</string>
+    <string name="reg7">22BCE10895</string>
+
+    <string name="name8">Ashutosh Singh Rawat </string>
+    <string name="reg8">22BCE11047</string>
+
+    <string name="name9">Abhinav Dixit</string>
+    <string name="reg9">22BCE11085</string>
+
+    <string name="name10">Suyash Agarwal </string>
+    <string name="reg10">22BCE11137</string>
+
+    <string name="name11">Hardik Gupta</string>
+    <string name="reg11">22BCE11278</string>
+
+    <string name="name12">Nikhil Dixit</string>
+    <string name="reg12">22BCE11290</string>
+
+    <string name="name13">Ayush Pratap </string>
+    <string name="reg13">22BCE11324</string>
+
+    <string name="name14">Himansh bansal</string>
+    <string name="reg14">22BCE11336</string>
+
+    <string name="name15">Aranya Bahuguna</string>
+    <string name="reg15">22BCE11369</string>
+
+    <string name="name16">Sambhav shah</string>
+    <string name="reg16">22BCE11387</string>
+
+    <string name="name17">Utkarsh Jha</string>
+    <string name="reg17">22BCE11670</string>
+
 </resources>
