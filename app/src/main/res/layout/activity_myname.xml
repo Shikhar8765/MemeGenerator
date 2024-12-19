@@ -6,17 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Myname">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="24sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
@@ -32,7 +21,7 @@
 
     <FrameLayout
         android:layout_width="335dp"
-        android:layout_height="424dp"
+        android:layout_height="430dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -51,7 +40,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="50sp"
-            android:text="Shikhar Shrivastav" />
+            android:text="@string/name1" />
 
         <TextView
             android:id="@+id/Reg1"
@@ -59,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="50sp"
-            android:text="22BCE10172" />
+            android:text="@string/reg1" />
 
 
         <TextView
@@ -67,7 +56,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="70sp"
-            android:text="Harsh Sabharwal" />
+            android:text="@string/name2" />
 
         <TextView
             android:id="@+id/Reg2"
@@ -75,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="70sp"
-            android:text="22BCE10193" />
+            android:text="@string/reg2" />
 
 
         <TextView
@@ -83,7 +72,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="90sp"
-            android:text="Rishabh Gupta" />
+            android:text="@string/name3" />
 
         <TextView
             android:id="@+id/Reg3"
@@ -91,7 +80,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="90sp"
-            android:text="22BCE10213" />
+            android:text="@string/reg3" />
 
 
         <TextView
@@ -99,7 +88,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="110sp"
-            android:text="Manav Rawat" />
+            android:text="@string/name4" />
 
         <TextView
             android:id="@+id/Reg4"
@@ -107,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="110sp"
-            android:text="22BCE10233" />
+            android:text="@string/reg4" />
 
 
         <TextView
@@ -115,7 +104,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="130sp"
-            android:text="Prakhar Shukla" />
+            android:text="@string/name5" />
 
         <TextView
             android:id="@+id/Reg5"
@@ -123,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="130sp"
-            android:text="22BCE10247" />
+            android:text="@string/reg5" />
 
 
         <TextView
@@ -131,7 +120,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="150sp"
-            android:text="Sumeet Sahu" />
+            android:text="@string/name6" />
 
         <TextView
             android:id="@+id/Reg6"
@@ -139,7 +128,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="150sp"
-            android:text="22BCE10369" />
+            android:text="@string/reg6" />
 
 
         <TextView
@@ -147,7 +136,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="170sp"
-            android:text="Saurav Khanal" />
+            android:text="@string/name7" />
 
         <TextView
             android:id="@+id/Reg7"
@@ -155,7 +144,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="170sp"
-            android:text="22BCE10895" />
+            android:text="@string/reg7" />
 
 
         <TextView
@@ -163,7 +152,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="190sp"
-            android:text="Ashutosh Singh Rawat " />
+            android:text="@string/name8" />
 
         <TextView
             android:id="@+id/Reg8"
@@ -171,7 +160,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="190sp"
-            android:text="22BCE11047" />
+            android:text="@string/reg8" />
 
 
         <TextView
@@ -179,7 +168,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="210sp"
-            android:text="Abhinav Dixit" />
+            android:text="@string/name9" />
 
         <TextView
             android:id="@+id/Reg9"
@@ -187,7 +176,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="210sp"
-            android:text="22BCE11085" />
+            android:text="@string/reg9" />
 
 
         <TextView
@@ -195,7 +184,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="230sp"
-            android:text="Suyash Aggarwal " />
+            android:text="@string/name10" />
 
         <TextView
             android:id="@+id/Reg10"
@@ -203,7 +192,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="230sp"
-            android:text="22BCE11137" />
+            android:text="@string/reg10" />
 
 
         <TextView
@@ -211,7 +200,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="250sp"
-            android:text="Hardik Gupta" />
+            android:text="@string/name11" />
 
         <TextView
             android:id="@+id/Reg11"
@@ -219,7 +208,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="250sp"
-            android:text="22BCE11278" />
+            android:text="@string/reg11" />
 
 
         <TextView
@@ -227,7 +216,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="270sp"
-            android:text="Nikhil Dixit" />
+            android:text="@string/name12" />
 
         <TextView
             android:id="@+id/Reg12"
@@ -235,7 +224,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="270sp"
-            android:text="22BCE11290" />
+            android:text="@string/reg12" />
 
 
         <TextView
@@ -243,7 +232,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="290sp"
-            android:text="Ayush Pratap " />
+            android:text="@string/name13" />
 
         <TextView
             android:id="@+id/Reg13"
@@ -251,7 +240,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="290sp"
-            android:text="22BCE11324" />
+            android:text="@string/reg13" />
 
 
         <TextView
@@ -259,7 +248,7 @@
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="310sp"
-            android:text="Aranya Bahuguna" />
+            android:text="@string/name14" />
 
         <TextView
             android:id="@+id/Reg14"
@@ -267,15 +256,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="310sp"
-            android:text="22BCE11369" />
-
+            android:text="@string/reg14" />
 
         <TextView
             android:id="@+id/name15"
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="330sp"
-            android:text="Utkarsh Jha" />
+            android:text="@string/name15" />
 
         <TextView
             android:id="@+id/Reg15"
@@ -283,10 +271,38 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="170sp"
             android:layout_marginTop="330sp"
-            android:text="22BCE11670" />
+            android:text="@string/reg15" />
 
+        <TextView
+            android:id="@+id/name16"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350sp"
+            android:text="@string/name16" />
 
+        <TextView
+            android:id="@+id/Reg16"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="350sp"
+            android:text="@string/reg16" />
 
+        <TextView
+            android:id="@+id/name17"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370sp"
+            android:text="@string/name17" />
+
+        <TextView
+            android:id="@+id/Reg17"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170sp"
+            android:layout_marginTop="370sp"
+            android:text="@string/reg17" />
+        
     </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
